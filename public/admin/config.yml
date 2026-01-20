@@ -12,12 +12,13 @@ collections:
     files:
       - name: "home"
         label: "Home"
-        file: "content/home.json"
+        file: "public/content/home.json"
         fields:
           - { label: "Titulo", name: "heroTitle", widget: "string" }
           - { label: "Subtitulo", name: "heroSubtitle", widget: "string" }
           - { label: "WhatsApp", name: "whatsapp", widget: "string" }
           - { label: "Instagram", name: "instagram", widget: "string" }
+
           - label: "Galeria"
             name: "gallery"
             widget: "list"
@@ -27,3 +28,4 @@ collections:
                 name: "images"
                 widget: "list"
                 field: { label: "Imagen", name: "image", widget: "image" }
+
