@@ -1,12 +1,20 @@
-collections:
-  - name: "site"
-    label: "Contenido del Sitio"
-    files:
-      - name: "home"
-        label: "Home"
-        file: "public/content/home.json"
-        fields:
-          - { label: "Titulo", name: "heroTitle", widget: "string" }
-          - { label: "Subtitulo", name: "heroSubtitle", widget: "string" }
-          - { label: "WhatsApp", name: "whatsapp", widget: "string" }
-          - { label: "Instagram", name: "instagram", widget: "string" }
+{
+  "heroTitle": "Batuka Animaciones",
+  "heroSubtitle": "Cumples, eventos y momentos que brillan ✨",
+  "whatsapp": "https://wa.me/549XXXXXXXXXX",
+  "instagram": "https://instagram.com/animaciones.batuka",
+  "gallery": [
+    {
+      "category": "Cumpleaños",
+      "images": []
+    },
+    {
+      "category": "Shows",
+      "images": []
+    },
+    {
+      "category": "Personajes",
+      "images": []
+    }
+  ]
+}
