@@ -1,11 +1,12 @@
-{
-  "heroTitle": "Batuka Animaciones",
-  "heroSubtitle": "Momentos que brillan ✨",
-  "whatsapp": "1136232642",
-  "instagram": "animaciones.batuka",
-  "gallery": [
-    { "category": "Cumpleaños", "images": [] },
-    { "category": "Eventos", "images": [] },
-    { "category": "Personajes", "images": [] }
-  ]
-}
+collections:
+  - name: "site"
+    label: "Contenido del Sitio"
+    files:
+      - name: "home"
+        label: "Home"
+        file: "public/content/home.json"
+        fields:
+          - { label: "Titulo", name: "heroTitle", widget: "string" }
+          - { label: "Subtitulo", name: "heroSubtitle", widget: "string" }
+          - { label: "WhatsApp", name: "whatsapp", widget: "string" }
+          - { label: "Instagram", name: "instagram", widget: "string" }
